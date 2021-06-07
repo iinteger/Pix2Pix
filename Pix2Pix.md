@@ -2,7 +2,7 @@
 
 * ###  Image-to-Image Translation with Conditional Adversarial Networks
 
-  * 이미지의 Style을 변화시키는 Image-to-Image translation, 즉 Style transfer를 제안함
+  * 다양한 도메인에 범용적으로 적용할 수 있는 Style transfer를 제안함
 
     
 
