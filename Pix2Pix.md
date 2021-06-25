@@ -59,6 +59,7 @@
       <img src="images/pix2pix7.png"/>
     
   * 기존에 cGAN은 모델이 deterministic 해지는것을 방지하기 위해 Gaussian noise로 output을 제어했는데 pix2pix network에선 노이즈가 무시되고 학습되는 경향이 있음. 따라서 training time, test time 모두 dropout을 사용하는 것으로 대체함
+  * 이때 Dropout layer의 위치에 따라 노이즈만 가득한 이미지가 나오기도 함!
   
   
 
